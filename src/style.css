@@ -1,0 +1,85 @@
+h1 {
+  position: relative;
+  left: 286px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: capitalize;
+}
+body {
+  background-image: url(../images/sky.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.weather-app-1 {
+  margin: 0 auto;
+}
+.weather-app {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.updated {
+  font-size: 10px;
+  position: relative;
+  left: 8px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.today-date {
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+}
+.today-weather-symbol {
+  font-size: 50px;
+  color: #ffcc00;
+}
+.today-celsius {
+  position: relative;
+  top: -25px;
+  left: 23px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.today-fahrenheit {
+  position: absolute;
+  font-size: 20px;
+  top: 35px;
+  right: 32px;
+  color: black;
+}
+.today-description {
+  color: black;
+  font-size: 14px;
+  position: relative;
+  left: -15px;
+  bottom: -8px;
+  text-transform: capitalize;
+}
+.day-one,
+.day-two,
+.day-three,
+.day-four {
+  color: black;
+  text-align: center;
+}
+.future-day {
+  position: relative;
+  top: -10px;
+  font-weight: 600;
+}
+
+.future-weather {
+  font-size: 25px;
+  color: #ffcc00;
+}
+.future-weather-rain {
+  font-size: 25px;
+  color: #495057;
+}
+
+.future-degrees {
+  position: relative;
+  bottom: -8px;
+}
